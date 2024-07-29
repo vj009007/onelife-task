@@ -1,4 +1,8 @@
 import React from "react";
+import team1 from "../assets/images/kal-visuals-square.jpg";
+import team2 from "../assets/images/bruce-mars.jpg";
+import team3 from "../assets/images/team-4.jpg";
+import team4 from "../assets/images/ivana-square.jpg";
 
 function Team() {
     return (
@@ -29,7 +33,7 @@ function Team() {
                                 <div className="col-lg-4 col-md-6 col-12 pe-lg-0">
                                     <a href="#">
                                         <div className="p-3 pe-md-0">
-                                            <img className="w-100 border-radius-md" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/kal-visuals-square.jpg" alt="Emma Roberts" />
+                                            <img className="w-100 border-radius-md" src={team1} alt="Emma Roberts" />
                                         </div>
                                     </a>
                                 </div>
@@ -49,7 +53,7 @@ function Team() {
                                 <div className="col-lg-4 col-md-6 col-12 pe-lg-0">
                                     <a href="#">
                                         <div className="p-3 pe-md-0">
-                                            <img className="w-100 border-radius-md" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/bruce-mars.jpg" alt="William Pearce" />
+                                            <img className="w-100 border-radius-md" src={team2} alt="William Pearce" />
                                         </div>
                                     </a>
                                 </div>
@@ -71,7 +75,7 @@ function Team() {
                                 <div className="col-lg-4 col-md-6 col-12 pe-lg-0">
                                     <a href="#">
                                         <div className="p-3 pe-md-0">
-                                            <img className="w-100 border-radius-md" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/team-4.jpg" alt="Ivana Flow" />
+                                            <img className="w-100 border-radius-md" src={team3} alt="Ivana Flow" />
                                         </div>
                                     </a>
                                 </div>
@@ -91,7 +95,7 @@ function Team() {
                                 <div className="col-lg-4 col-md-6 col-12 pe-lg-0">
                                     <a href="#">
                                         <div className="p-3 pe-md-0">
-                                            <img className="w-100 border-radius-md" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/ivana-square.jpg" alt="Sophia Garcia" />
+                                            <img className="w-100 border-radius-md" src={team4} alt="Sophia Garcia" />
                                         </div>
                                     </a>
                                 </div>

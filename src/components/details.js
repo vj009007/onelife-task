@@ -1,4 +1,11 @@
 import React from "react";
+
+import Card1 from "../assets/images/card-1.webp";
+import Card2 from "../assets/images/card-2.webp";
+import Iphone from "../assets/images/iphone-1.webp";
+import Curved6 from "../assets/images/curved6.jpg";
+
+
 function Details() {
     return (
         <section className="py-3">
@@ -8,15 +15,15 @@ function Details() {
                         <div className="device-wrapper position-relative">
                             <img 
                                 className="w-100 mt-7 z-index-1 ms-n10 position-relative shadow border-radius-md position-absolute fadeIn3 fadeInBottom d-none d-sm-none d-md-none d-lg-block d-xl-block" 
-                                src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/illustrations/card-1.png"  alt="Card 1" />
+                                src={Card1}  alt="Card 1" />
                             <img 
                                 className="w-100" 
-                                src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/illustrations/iphone-1.png" 
+                                src={Iphone} 
                                 alt="iPhone 1"
                             />
                             <img 
                                 className="w-100 bottom-0 z-index-1 position-relative shadow border-radius-md position-absolute ms-8 mb-5 fadeIn1 fadeInBottom d-none d-sm-none d-md-none d-lg-block d-xl-block" 
-                                src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/illustrations/card-2.png" 
+                                src={Card2}
                                 alt="Card 2"
                             />
                         </div>
@@ -61,7 +68,7 @@ function Details() {
                     </div>
                     <div className="col-md-6">
                     <div className="blur-shadow-image text-center">
-                        <img src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/curved-images/curved6.jpg" alt="img-blur-shadow" className="img-fluid shadow border-radius-lg max-height-600" />
+                        <img src={Curved6} alt="img-blur-shadow" className="img-fluid shadow border-radius-lg max-height-600" />
                     </div>
                     </div>
                 </div>

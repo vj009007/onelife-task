@@ -1,6 +1,12 @@
 import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
+import Logo1 from "../assets/images/logo-apple.svg";
+import Logo2 from "../assets/images/logo-facebook.svg";
+import Logo3 from "../assets/images/logo-behance.svg";
+import Logo4 from "../assets/images/logo-spotify.svg";
+import Logo5 from "../assets/images/logo-coinbase.svg";
+import Logo6 from "../assets/images/logo-pinterest.svg";
 
 function Testimonial() {
 
@@ -88,22 +94,22 @@ function Testimonial() {
                 <hr className="horizontal dark my-5" />
                 <div className="row">
                     <div className="col-lg-2 col-6">
-                        <img className="w-100 opacity-6" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/gray-logos/logo-apple.svg" alt="Apple Logo" />
+                        <img className="w-100 opacity-6" src={Logo1} alt="Apple Logo" />
                     </div>
                     <div className="col-lg-2 col-6">
-                        <img className="w-100 opacity-6" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/gray-logos/logo-facebook.svg" alt="Facebook Logo" />
+                        <img className="w-100 opacity-6" src={Logo2} alt="Facebook Logo" />
                     </div>
                     <div className="col-lg-2 col-6">
-                        <img className="w-100 opacity-6" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/gray-logos/logo-behance.svg" alt="Behance Logo" />
+                        <img className="w-100 opacity-6" src={Logo3} alt="Behance Logo" />
                     </div>
                     <div className="col-lg-2 col-6">
-                        <img className="w-100 opacity-6" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/gray-logos/logo-spotify.svg" alt="Spotify Logo" />
+                        <img className="w-100 opacity-6" src={Logo4} alt="Spotify Logo" />
                     </div>
                     <div className="col-lg-2 col-6">
-                        <img className="w-100 opacity-6" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/gray-logos/logo-coinbase.svg" alt="Coinbase Logo" />
+                        <img className="w-100 opacity-6" src={Logo5} alt="Coinbase Logo" />
                     </div>
                     <div className="col-lg-2 col-6">
-                        <img className="w-100 opacity-6" src="https://demos.creative-tim.com/soft-ui-design-system-pro/assets/img/logos/gray-logos/logo-pinterest.svg" alt="Pinterest Logo" />
+                        <img className="w-100 opacity-6" src={Logo6} alt="Pinterest Logo" />
                     </div>
                 </div>
             </div>
